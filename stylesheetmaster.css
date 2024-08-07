@@ -1,0 +1,148 @@
+body {
+	background-color: #e5e5f7;
+	opacity: 1;
+	background: repeating-linear-gradient(45deg, #d4af37, #d4af37 5px, #f7eee5 5px, #f7eee5 25px);
+	font-family: 'Josefin Sans', cursive;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+.middle {
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+	background: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+section {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.banner {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+	color: gray;
+}
+
+.intro {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20px auto;
+	width: 70%;
+}
+
+.intro img {
+	width: 150px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+}
+
+.profile-image {
+	width: 100px; /* Reduced size of the image */
+	height: auto; /* Maintain aspect ratio */
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%; /* Optional: To make the image circular */
+}
+
+ul.menu {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 20px 0;
+}
+
+ul.menu li {
+	margin: 0 15px;
+}
+
+ul.menu li img {
+	width: 150px;
+	height: auto;
+}
+
+h1, h3 {
+	margin: 10px 0;
+	text-align: center;
+}
+
+a img {
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+	height: auto;
+}
+
+.sidenav a {
+	position: absolute;
+	left: -150px;
+	transition: 0.2s;
+	padding: 15px;
+	width: 150px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.sidenav a:hover {
+	left: 0;
+}
+
+.about {
+	top: 60px;
+	background-color: DarkCyan;
+}
+
+/* Ensure the menu items are evenly spaced and centered */
+.menu {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around; /* Evenly space the items */
+	align-items: center; /* Center items vertically */
+	gap: 20px; /* Add space between items */
+}
+
+/* Style for each menu item */
+.menu li {
+	display: flex;
+	align-items: center; /* Center image and text vertically */
+}
+
+/* Style for the links */
+.menu li a {
+	display: flex;
+	align-items: center; /* Center image and text vertically */
+	justify-content: center; /* Center image and text horizontally */
+}
+
+/* Ensure the images have consistent dimensions */
+.menu-img {
+	width: 50px; /* Adjust the width as needed */
+	height: 50px; /* Adjust the height as needed */
+	object-fit: contain; /* Ensure the image scales properly */
+}
+
+.youtube-icon {
+	width: 100px;
+	height: auto;
+}
+
+.slideshow {
+    width: 45%; /* Set the width to 100% of its container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 500px; /* Optional: set a maximum width */
+}
+
