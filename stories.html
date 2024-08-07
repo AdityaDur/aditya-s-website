@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aditya Durvasula | Stories</title>
+	<link rel="icon" href="image-removebg-preview (1).png">
+	<link href="stylesheetmaster.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="middle">
+		<section>
+			<a href="index.html"><img src="banneradi1.png" class="banner"></a>
+			<div class="intro">
+				<h1>Stories</h1>
+			</div>
+			<h3>These are some of my stories</h3>
+			<img src="aditya.jpg" class="profile-image" alt="Aditya's Image">
+		</section>
+	<div class="slideshow">
+		<div class="numbertext">1 / 4</div>
+		<img src="family.jpg" alt="me with my family">
+		<div class="text">A Trip at the Park with my family</div>
+	</div>
+	<div class="slideshow">
+		<div class="numbertext">2 / 4</div>
+		<img src="me.jpg" alt="me">
+		<div class="text">A Trip at the Park with my family</div>
+	</div>
+	<div class="slideshow">
+		<div class="numbertext">3 / 4</div>
+		<img src="family2.jpg" alt="me with my family">
+		<div class="text">A Trip at the Park with my family</div>
+	</div>
+	<div class="slideshow">
+		<div class="numbertext">4 / 4</div>
+		<img src="legs.jpg" alt="me with my family">
+		<div class="text">A Trip at the Park with my family</div>
+	</div>
+
+		<footer>Made by Aditya Durvasula</footer>
+	</div>
+
+	<script>
+	var pictureIndex = 0;
+	showpics();
+
+	function showpics() {
+		var i;
+		var pictures = document.getElementsByClassName("slideshow");
+		for (i = 0; i < pictures.length; i++) {
+			pictures[i].style.display = "none";
+		}
+
+		pictureIndex++;
+		if (pictureIndex > pictures.length) {
+			pictureIndex = 1;
+		}
+		pictures[pictureIndex - 1].style.display = "block";
+		setTimeout(showpics, 2000);
+	}
+</script>
+
+	
+</body>
+</html>
