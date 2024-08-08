@@ -100,9 +100,17 @@ a img {
 	left: 0;
 }
 
-.about {
-	top: 60px;
+.qandz {
+	top: 20px;
 	background-color: DarkCyan;
+}
+.myjourney {
+	top: 100px;
+	background-color: Orange;
+}
+.resume {
+	top: 165px;
+	background-color: FireBrick;
 }
 
 /* Ensure the menu items are evenly spaced and centered */
@@ -141,8 +149,9 @@ a img {
 }
 
 .slideshow {
-    width: 45%; /* Set the width to 100% of its container */
-    height: auto; /* Maintain the aspect ratio */
-    max-width: 500px; /* Optional: set a maximum width */
+    width: 100px;
+    height: auto;
+    max-width: 200px;
 }
+
 
