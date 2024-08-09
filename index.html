@@ -43,7 +43,20 @@
 	<a href="resume.html" class="resume">Resume (for fun)</a>
     </div>
     <script>
-        alert("Hello! I am Aditya and this is my website. This website is still under construction but you can go ahead and see what I have coded so far. Thanks for your patience.");
+        alert("Hello! I am Aditya and this is my website. This website is still under construction and all webpages are not completed, but you can go ahead and see what I have coded so far. Thanks for your patience.");
     </script>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h4><em>Navigating Around The Website:</em> You can click on the buttons and you will be redirected to the certain page. If you want to go back to the homepage, please click the banner. There are also 3 side menus to the right which will slide to the right after you hover over them, you can click them. (This website is not designed to be used with a phone).</h4>
+        <button id="close-popup">Okay</button>
+    </div>
+<script>
+document.getElementById('close-popup').addEventListener('click', function() {
+    document.getElementById('popup').style.display = 'none';
+});
+</script>
+
+</div>
 </body>
 </html>
