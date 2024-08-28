@@ -48,12 +48,19 @@ footer {
 	border-radius: 0%;
 }
 
-.stories-image {
+.middle-image {
 	width: 200px; /* Reduced size of the image */
 	height: auto; /* Maintain aspect ratio */
 	display: block;
 	margin: 0 auto;
 	border-radius: 0%; /* Optional: To make the image circular */
+}
+
+.profile-image {
+    width: 250px; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 30%; /* Make the image circular if desired */
+    border: 2px solid #ccc; /* Example border */
 }
 
 ul.menu {
